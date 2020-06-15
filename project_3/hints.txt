@@ -1,0 +1,18 @@
+
+Hints to get this one done
+
+
+1. You'll need the quicksand font you used in project 2. You can get that on Google Fonts.
+
+2. You'll need to use "position: absolute;" in CSS to get the bed to be in the position you want.
+
+3. No need to make this look good on mobile screens. Just make it look good at a width that's similar to the design.
+
+4. The stars should be a background image in CSS. The logo and bed should be img tags in HTML.
+
+5. Push you code up at the end by using git. The following commands are how you do that:
+    git add -a
+    git commit -m "Any custom diescription goes here"
+    git push
+
+    You can also use "git status" at any point to see all the changes you've made in the terminal.
