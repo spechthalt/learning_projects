@@ -1,6 +1,9 @@
-/* Your CSS goes in here */
+
 
 * {
   box-sizing: border-box;
 }
 
+.wrapper {
+  background-color: teal;
+}

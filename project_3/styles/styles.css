@@ -3,3 +3,114 @@
 * {
   box-sizing: border-box;
 }
+
+/*I could not figure out how to round the edges of the background image. I thought about
+edditing it in photoshop and then using it, or adding a div that was just a think white border
+and overlap it, but I also was not sure how to do that.*/
+
+/*The other thing I could not get right is that when you resize the website, the div's move 
+with it and dont stay in place, so everything overlaps. I did't know/remember how to make
+them stay still.*/
+
+.wrapper {
+  background-image: url('../images/stars.jpg');
+  height: 650px;
+  background-position: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Quicksand',serif;
+  position: relative;
+}
+
+.logo {
+  width: 50px;
+  top: 40px;
+  left: 50px;
+  position: absolute;
+}
+
+.bed {
+  width: 800px;
+  right: 110px;
+  top: 160px;
+  position: absolute;
+}
+
+.topnav {
+  color: gray;
+  font-size: 25px;
+  font-weight: 900;
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+
+.navlink {
+  margin-left: 35px;
+  padding-bottom: 20px;
+  color: gray;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text {
+  position: absolute;
+  top: 250px;
+  left: 80px;
+}
+
+.large {
+  font-size: 80px;
+  color: rgb(29,34,41);
+  font-weight: 900;
+  margin-bottom: 40px;
+  width: 400px;
+}
+
+.norm {
+  color: gray;
+  font-weight: 600;
+  width: 450px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.buttons {
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  right: 60px;
+  top: 60px;
+}
+
+/*I had to use the !important thing because the color would not work otherwise.
+Do you know why that is?*/
+
+.acct1 {
+  margin-left: 60px;
+  color: white !important;
+}
+
+.acct2 {
+  margin-left: 60px;
+  color:rgb(29,34,41) !important;
+  border: solid 5px rgb(155,226,198);
+  border-radius: 40px;
+  background-color: rgb(155,226,198);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
