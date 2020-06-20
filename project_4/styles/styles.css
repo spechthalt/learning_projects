@@ -1,0 +1,58 @@
+/* Your CSS goes in here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7e6ff;
+  background: linear-gradient(135deg, #f7e6ff 0%,#a2d0ed 100%);
+  color: #01263d;
+  font-family: 'Quicksand',serif;
+  min-height: 100vh;
+  padding: 0 20px 20px;
+}
+
+.body-wrap {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 92%;
+}
+
+h1 {
+  border-left: 4px solid #524cd5;
+  color: #524cd5;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 26px;
+  padding-left: 16px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the navigation */
+.nav {
+  border: 1px solid #524cd5;
+  border-top: 0;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+a.nav__link {
+  background-color: rgba(255, 255, 255, .3);
+  border-right: 1px solid rgba(150, 150, 150, .15);
+  color: #01263d;
+  flex: 1 1 auto;
+  padding: 20px 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.nav__link:hover {
+  background-color: rgba(255, 255, 255, .6);
+}

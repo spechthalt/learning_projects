@@ -1,0 +1,26 @@
+
+Instructions / Hints for Project 4
+
+1.  Pull down the latest changes on github.
+
+2.  Open the website using MAMP (use "localhost:8888/project_4/" in your URL bar).
+
+3.  Play around with the very simple website I've created for you. See if you can
+    understand how I've built it. You'll also notice there are now some PHP tags
+    which is nothing to worry about. It's just like a HTML tag but whatever is 
+    inside of the PHP tags is valid PHP. I'm including HTML from the "partials"
+    folder using the PHP. You'll also notice all the files are no longer .html
+    files and are instead .php files. This is a requirement of PHP, you need the
+    files to have the .php extension for PHP to work within them. It's JUST like
+    .html files so nothing changes but the name.
+
+4.  See if you can add the navigation bar to all the pages that are missing it.
+
+5.  Once the navigation is working. See if you can create a "footer" to include
+    at the bottom of every page. The HTML for the footer should be in it's own
+    "partial" file and should be included on all 5 pages with PHP -- just like 
+    the navigation was. The footer can look however you want.
+
+6.  This one is pretty easy compared to the others (work load wise). When you're
+    done with this, let me know and we'll set up the next Zoom call. 
+    
