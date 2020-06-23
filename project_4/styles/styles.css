@@ -56,3 +56,19 @@ a.nav__link {
 a.nav__link:hover {
   background-color: rgba(255, 255, 255, .6);
 }
+
+.footer {
+position: fixed;
+bottom: 0;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+a.footer_link {
+  color: black;
+  text-decoration: none;  
+}
+
+.footer_link:hover {
+  color: darkgray;
+}

@@ -28,7 +28,11 @@
       <p>
         Nunc et felis ut erat vulputate pellentesque a nec orci. In commodo, erat sodales sodales interdum, turpis mauris facilisis sem, sit amet consectetur justo libero at dolor. Aliquam a erat arcu. Aliquam faucibus luctus ligula eu ornare. Integer sed est lectus. Aliquam porta nisi eu malesuada ullamcorper. Duis dolor nulla, pharetra non nibh id, congue varius nunc. Proin nec volutpat erat. Pellentesque commodo varius pellentesque. Quisque viverra tempus dapibus. Integer ullamcorper suscipit urna, non faucibus nulla sodales sagittis. Curabitur aliquet risus nec est euismod porttitor. Aenean ut orci commodo, iaculis diam vitae, sagittis ligula.
       </p>
-
+     
+     <?php
+     include('./partials/footer.php')
+     ?>
+     
     </div>
   </body>
 </html>

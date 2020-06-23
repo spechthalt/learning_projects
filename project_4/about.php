@@ -24,6 +24,10 @@
       <p>
         Vestibulum volutpat enim vestibulum lorem aliquet, id egestas leo gravida. Nam vel dui ante. Sed hendrerit dolor sed leo blandit, in malesuada justo porta. Nullam rhoncus fermentum justo, a tincidunt neque tincidunt vitae. Phasellus eu hendrerit erat. Nulla viverra lectus consequat risus venenatis mattis. Quisque lectus lacus, ornare at libero sed, ornare faucibus quam. Nunc nec ornare massa, ut scelerisque enim. In finibus venenatis convallis. Duis facilisis neque diam, a ornare tortor ultrices sed. Donec imperdiet mollis mauris.
       </p>
+
+      <?php
+     include('./partials/footer.php')
+     ?>
     </div>
   </body>
 </html>
