@@ -17,7 +17,7 @@
         include('./partials/navigation.php')
       ?>
 
-      <h1>About Page</h1>
+      <h1 class="js-header">About Page</h1>
       <p>
         In molestie aliquet tellus, quis aliquet massa consequat sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus a varius massa, nec venenatis metus. Ut posuere ante eget convallis varius. Integer venenatis nibh id quam dictum pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam elit elit, porta et rutrum ac, consequat ut justo. Aenean leo neque, aliquet ultricies lorem vel, suscipit blandit lectus. Aliquam in nisl et tellus varius sagittis eu ac ipsum. Aliquam dictum tortor non mauris pulvinar sodales. Etiam sollicitudin ac tellus vel accumsan. Mauris vitae mollis mi, non aliquam mi. Aenean quis dui sagittis, rutrum diam fringilla, consequat sapien.
       </p>

@@ -13,7 +13,7 @@
      include('./partials/navigation.php')
      ?>
 
-      <h1>Gallery Page</h1>
+      <h1 class="js-header">Gallery Page</h1>
       <p>
         This page needs to be fixed, there is no navigation...
       </p>

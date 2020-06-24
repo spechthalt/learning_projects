@@ -21,7 +21,7 @@
         include('./partials/navigation.php')
       ?>
 
-      <h1>Home Page</h1>
+      <h1 class="js-header">Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel purus arcu. Etiam vulputate tempus neque in feugiat. Nullam risus quam, faucibus hendrerit fermentum sollicitudin, lacinia in ipsum. Praesent id justo mattis, aliquet quam et, scelerisque diam. Nulla et ex ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus quis augue non mauris auctor ornare. Maecenas nisi tellus, tempus in semper eget, porttitor gravida orci. Praesent nec ornare justo. Sed mollis tempor nibh eget lacinia. Proin eget erat tempor enim congue pretium id vitae urna. Integer varius urna dui, sit amet pretium lectus lobortis eleifend.
       </p>
@@ -34,5 +34,6 @@
      ?>
      
     </div>
+    <script src="scripts/scripts.js"></script>
   </body>
 </html>
