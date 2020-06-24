@@ -1,14 +1,12 @@
 // What is sent to the console?
 
-function foobar (value1) {
-  let value2 = value1 / value1
+function foo (value1) {
+  let value2 = bar(value1 * value1)
   return value2;
 }
 
-let x = 0;
+function bar (value1) {
+  return value1 + 1;
+}
 
-x = 2;
-
-let y = foobar(x + 1);
-
-//console.log(y)
+//console.log(foo(1))
