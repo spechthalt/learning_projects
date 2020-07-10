@@ -14,14 +14,27 @@
  * 
  * DO NOT use the "reduce" function that you may see on Google. That's cheating ;) 
  */
-{
-let averageGrade = 0;
-const grades = [98, 97, 90, 88, 55, 79, 94, 94, 90, 91, 85, 75, 84, 92, 95];
 
+
+
+ /*why do we have to set total to 0? I also changed it form averageGrade to total 
+ because when it was originally set to "averageGrade = 0" and I tried to define it again 
+ as "let averageGrade = total / grades.length", it showed an error that averageGrade was 
+ already defined.
+ */
+{
+let averageGrade = 0; 
+let total = 0;
+const grades = [98, 97, 90, 88, 55, 79, 94, 94, 90, 91, 85, 75, 84, 92, 95];
 
 
 // Your code/loop goes here
 
+for (i = 0; i < grades.length; i++) { 
+    total += grades[i]; //I dont understand how this line functions
+}
+
+averageGrade = total / grades.length;
 
 
 // Don't remove this console.log 

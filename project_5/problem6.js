@@ -24,7 +24,11 @@
  * if the list of grades contained thousands of grades.
  */
 {
-let averageGrade = 0;
+let averageGrade, totalM, totalF
+  averageGrade = 0;
+  totalF = 0;
+  totalM = 0;
+
 const grades = [
   { firstName: "Cooper", sex: "M", grade: 80 },
   { firstName: "Carlos", sex: "F", grade: 98 },
@@ -38,7 +42,11 @@ const grades = [
 
 // Your code goes here
 
+totalM += grades[M] / grades[M].length
 
+/*
+
+if totalM < totalF, output "F", else output "M"
 
 // Don't remove this console.log 
 console.log("Problem 6: " + averageGrade);

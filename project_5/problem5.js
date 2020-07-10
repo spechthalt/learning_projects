@@ -32,7 +32,7 @@ const personData = { firstName: "Cooper", lastName: "Goeke", grade: 90 };
 
 // Your code goes here
 
-
+name = personData.lastName;
 
 // Don't remove this console.log 
 console.log("Problem 5: " + name);

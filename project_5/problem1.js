@@ -33,7 +33,7 @@ const yourFirstArray = [98, 50, 0, 34, 70, 100];
 
 // Your code goes here
 
-
+outPutValue = yourFirstArray[3];
 
 // Don't remove this console.log 
 console.log("Problem 1: " + outPutValue);

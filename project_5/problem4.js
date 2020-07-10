@@ -18,7 +18,11 @@ const grades = [98, 97, 90, 88, 55, 79, 94, 94, 90, 91, 85, 75, 84, 92, 95];
 
 // Your code goes here (start by copying over your code from problem 2)
 
+function findMin() {
+    grades.sort((a, b)a - b);
+}
 
+//sort in ascending order then lowestGrade = grades[0]
 
 // Don't remove this console.log 
 console.log("Problem 4: " + lowestGrade);
