@@ -23,20 +23,19 @@
  already defined.
  */
 {
-let averageGrade = 0; 
+
 let total = 0;
 const grades = [98, 97, 90, 88, 55, 79, 94, 94, 90, 91, 85, 75, 84, 92, 95];
 
 
 // Your code/loop goes here
-
 for (i = 0; i < grades.length; i++) { 
-    total += grades[i]; //I dont understand how this line functions
+    total += grades[i];
 }
 
-averageGrade = total / grades.length;
+total = total / grades.length;
 
 
 // Don't remove this console.log 
-console.log("Problem 2: " + averageGrade);
+console.log("Problem 2: " + total);
 }

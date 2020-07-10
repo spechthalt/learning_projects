@@ -11,18 +11,15 @@
  * you found the minumum value manually using your loop from problem 2 again.
  */
 {
-let lowestGrade = 0;
+let lowestGrade = 101;
 const grades = [98, 97, 90, 88, 55, 79, 94, 94, 90, 91, 85, 75, 84, 92, 95];
 
-
-
-// Your code goes here (start by copying over your code from problem 2)
-
-function findMin() {
-    grades.sort((a, b)a - b);
+// Your code/loop goes here
+for (i = 0; i < grades.length; i++) { 
+  if (grades[i] < lowestGrade) {
+    lowestGrade = grades[i]
+  }
 }
-
-//sort in ascending order then lowestGrade = grades[0]
 
 // Don't remove this console.log 
 console.log("Problem 4: " + lowestGrade);

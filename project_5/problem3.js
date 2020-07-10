@@ -16,15 +16,14 @@ let averageGrade = 0;
 let total = 0;
 const grades = [98, 97, 90, 88, 55, 79, -5, 94, 90, 191, 85, 75, 84, 92, 95];
 
-
-
 // Your code goes here (start by copying over your code from problem 2)
-for (i = 0; i < grades.length; i++) { 
-    total += grades[i]; // total += -1 < grades[i] < 101;
+for (i = 0; i < grades.length; i++) {
+  if (grades[i] >= 0 && grades[i] <= 100) {
+    total += grades[i];
+  }
 }
 
 averageGrade = total / grades.length;
-
 
 // Don't remove this console.log 
 console.log("Problem 3: " + averageGrade);

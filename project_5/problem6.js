@@ -24,10 +24,14 @@
  * if the list of grades contained thousands of grades.
  */
 {
-let averageGrade, totalM, totalF
-  averageGrade = 0;
-  totalF = 0;
-  totalM = 0;
+
+let countF = 0;
+let countM = 0;
+let totalF = 0;
+let totalM = 0;
+let averageF = 0;
+let averageM = 0;
+let betterSex = ""
 
 const grades = [
   { firstName: "Cooper", sex: "M", grade: 80 },
@@ -38,16 +42,25 @@ const grades = [
   { firstName: "Michael", sex: "F", grade: 86 }
 ];
 
+for (i = 0; i < grades.length; i++) {
+  if (grades[i].sex == "M") {
+    countM++;
+    totalM += grades[i].grade;
+  } else if (grades[i].sex == "F") {
+    countF++;
+    totalF += grades[i].grade;
+  }
+}
 
+averageF = totalF / countF;
+averageM = totalM / countM;
 
-// Your code goes here
-
-totalM += grades[M] / grades[M].length
-
-/*
-
-if totalM < totalF, output "F", else output "M"
+if (averageF > averageM) {
+  betterSex = "F"
+} else if (averageM > averageF) {
+  betterSex = "M"
+}
 
 // Don't remove this console.log 
-console.log("Problem 6: " + averageGrade);
+console.log("Problem 6: " + betterSex);
 }
